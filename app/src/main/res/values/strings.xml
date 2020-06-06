@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">KajKormobd</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="ad">Post Ad</string>
+    <string name="Pro">Profile</string>
+    <string name="title_activity_home">Home</string>
+    <string name="post_from_workers">Post from Workers</string>
+    <string name="home">Home</string>
+    <string name="location">Location</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_workerapplication3">workerapplication3</string>
+
+    <string name="profile_name">""</string>
+    <string name="profile_image">""</string>
+
+
+    <string-array name="Category">
+        <item>Choose a Category</item>
+        <item>Household Servicing Work</item>
+        <item>Shop Servicing Work</item>
+        <item>Freelance Work</item>
+    </string-array>
+
+    <string-array name="Household_work">
+        <item>Tutor</item>
+        <item>Arabic Tutor</item>
+        <item>Singing Tutor</item>
+        <item>Electric Work</item>
+        <item>Gas Line Work</item>
+        <item>Maid Work</item>
+        <item>Mason work</item>
+        <item>Paint work</item>
+        <item>Carver Work</item>
+        <item>Tiles Work</item>
+        <item>Interior work</item>
+        <item>Grill and metal Work</item>
+        <item>Car Driver</item>
+        <item>Gate Keeper</item>
+        <item>Sewer Work</item>
+        <item>Barber work</item>
+        <item>Blacksmith Work</item>
+        <item>Key-lock Work</item>
+
+
+    </string-array>
+    <string-array name="Shop_Work">
+        <item>Shop Stuff</item>
+        <item>Super Shop Stuff</item>
+        <item>Mobile Servicing operator</item>
+        <item>Computer Servicing operator</item>
+        <item>Computer Typist Operator</item>
+        <item>Computer Graphics Operator</item>
+        <item>Electric and Electronics Operator</item>
+        <item>Car Mechanics</item>
+        <item>Motorcycle Mechanics</item>
+        <item>Cycle Mechanics</item>
+        <item>Restaurant Chef</item>
+        <item>Pharmacy Shop stuff</item>
+        <item>Tailor</item>
+        <item>Watch Mechanics</item>
+    </string-array>
+
+
+    <string-array name="Freelance_Work">
+
+        <item>Data Entry</item>
+        <item>Web Developing</item>
+        <item>Android App Developing</item>
+        <item>Software Developing</item>
+        <item>Graphics Design</item>
+        <item>SEO</item>
+        <item>Promote Apps and Website</item>
+        <item>Article Writing</item>
+
+
+    </string-array>
+
+    <string-array name="experience">
+
+        <item>Experience</item>
+        <item>6 months</item>
+        <item>1 Year</item>
+        <item>2 Year</item>
+        <item>3 Year</item>
+        <item>4 Year</item>
+        <item>5 Year</item>
+        <item>6 Year</item>
+        <item>7 Year</item>
+        <item>8 Year</item>
+        <item>9 Year</item>
+        <item>10 Year</item>
+        <item>10+ Year</item>
+
+
+    </string-array>
+
+    <string-array name="Amount">
+
+        <item>Fixed Price or Negotiable</item>
+        <item>Fixed Price</item>
+        <item>Negotiable</item>
+    </string-array>
+
+    <string-array name="location">
+
+        <item>All Over Bangladesh</item>
+        <item>Dhaka</item>
+        <item>Chittagong</item>
+        <item>Khulna</item>
+        <item>Sylet</item>
+        <item>Barishal</item>
+        <item>Mymenshing</item>
+        <item>Rongpur</item>
+        <item>Rajshahi</item>
+        <item>Coxbazar</item>
+        <item>Comilla</item>
+
+    </string-array>
+
+
+</resources>

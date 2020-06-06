@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="?attr/colorPrimary"
+            android:elevation="5dp"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:title="Ad Your Work Post"
+            app:titleTextColor="@color/white" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/corner_radious_box">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Choose A Category"
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        android:layout_marginTop="5dp"
+                        />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="18dp">
+
+                        <ToggleButton
+                            android:id="@+id/button4"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:textOff=""
+                            android:textOn=""
+                            android:layout_marginStart="31dp"
+                            android:background="@drawable/homegray"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ToggleButton
+                            android:id="@+id/shop_button"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:textOff=""
+                            android:textOn=""
+                            android:layout_marginStart="60dp"
+                            android:layout_marginEnd="60dp"
+                            android:background="@drawable/shop"
+                            app:layout_constraintEnd_toStartOf="@+id/button"
+                            app:layout_constraintStart_toEndOf="@+id/button4"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ToggleButton
+                            android:id="@+id/button"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:textOff=""
+                            android:textOn=""
+                            android:layout_marginEnd="31dp"
+                            android:background="@drawable/freelancegray"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="90dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="13dp"
+                            android:gravity="center"
+                            android:text="Home Related Work"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="90dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="38dp"
+                            android:layout_marginEnd="40dp"
+                            android:gravity="center"
+                            android:text="Shop Related Work"
+                            app:layout_constraintEnd_toStartOf="@+id/textView11"
+                            app:layout_constraintStart_toEndOf="@+id/textView12"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="90dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="13dp"
+                            android:gravity="center"
+                            android:text="Freelane Type Work"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </FrameLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_business_center_black_24dp"
+                    android:drawablePadding="6dp"
+                    android:text="Work Name:"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/work"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginStart="22dp"
+                    android:background="@drawable/corner_radious_box"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="Select Work"
+                    android:textSize="17sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView6"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/idea"
+                    android:drawablePadding="6dp"
+                    android:text="Experience:"
+                    android:textSize="17sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/expo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="26dp"
+                    android:background="@drawable/corner_radious_box"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="Work Experience"
+                    android:textSize="17sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView22"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/editaa"
+                    android:drawablePadding="6dp"
+                    android:text="Description:"
+                    android:textSize="17sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/descrip_edit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="22dp"
+                    android:background="@drawable/corner_radious_box"
+                    android:gravity="center"
+                    android:hint="Write here....."
+                    android:paddingVertical="20dp"
+                    android:textAlignment="center"
+                    android:scrollbars="vertical"
+                    android:layout_weight ="1"
+                    android:inputType="textCapSentences|textMultiLine"
+                    android:maxLines ="10"
+                    android:maxLength ="100"
+                    android:scrollHorizontally="false"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView23"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                    android:text="Location:"
+                    android:textSize="17sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/location_search"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="41dp"
+                    android:background="@drawable/corner_radious_box"
+
+                    android:completionThreshold="1"
+                    android:gravity="center"
+
+                    android:hint="Set a Location"
+                    android:inputType="textFilter"
+                    android:padding="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView24"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <EditText
+                    android:id="@+id/amount_edit"
+                    android:layout_width="230dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/corner_radious_box"
+                    android:hint="Amount (BDT)"
+                    android:textSize="17sp"
+                    android:inputType="number"
+                    android:textColor="@color/black"
+                    android:drawableLeft="@drawable/bank"
+                    android:paddingLeft="14dp"
+                    android:drawablePadding="10dp" />
+
+                <ToggleButton
+                    android:id="@+id/nego"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/corner_radious_box"
+                    android:textSize="16sp"
+                    android:textOn="Negotiable"
+                    android:textOff="Negotiable"
+                    android:layout_marginLeft="5dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/phn_edit1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner_radious_box"
+                android:hint="Add phone Number"
+                android:padding="12dp"
+                android:textSize="17sp"
+                android:layout_marginTop="15dp"
+                android:drawablePadding="10dp"
+                android:inputType="phone"
+                android:paddingLeft="10dp"
+
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/ic_call_black_24dp"/>
+
+
+            <Button
+                android:id="@+id/create_post"
+                android:layout_gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Create Post"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:background="@drawable/buttonbox"
+                android:textColor="@color/white"
+                android:layout_marginBottom="30dp"
+                />
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ScrollView>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/post_box"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp">
+
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="7dp"
+                android:text="Tuition"
+                android:textSize="17sp"
+                android:textColor="@color/colorAccent"
+                />
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="7dp"
+                android:text="Experience: "
+                android:textSize="17sp"
+                android:textColor="@color/colorAccent"/>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="20dp"
+                android:text="Desciption:"
+                android:textSize="14sp"
+
+                />
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="20dp"
+                android:text="Amount:"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/oval"
+                android:src="@drawable/ccc"
+                android:adjustViewBounds="true"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop"
+
+
+                />
+            <LinearLayout
+                android:layout_width="114dp"
+                android:layout_height="80dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="Saeed Khan"
+                    android:textSize="15sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Service Worker"
+                    android:textColor="@color/green"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="Indrira Road, Dhaka"
+                    android:textSize="15sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="01818199540"
+                    android:textColor="@color/green"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

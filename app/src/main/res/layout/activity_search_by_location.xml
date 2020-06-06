@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".search_by_location">
+
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Pick a location"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:background="@color/graylite"
+        android:elevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:drawableLeft="@drawable/maps_and_flags_copy"
+            android:gravity="center"
+            android:paddingHorizontal="22dp"
+            android:text="Use your Curent Location"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.19" />
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:background="@drawable/search"
+            android:iconifiedByDefault="false"
+            android:queryHint="Search for a location"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView21"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView21"
+            app:layout_constraintTop_toBottomOf="@+id/textView21"></SearchView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/frameLayout2"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+        android:background="@color/graylite"
+        android:elevation="1dp"
+        android:text="Dhaka division"
+        android:textSize="17dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"></TextView>
+
+    <TextView
+        android:id="@+id/frameLayout"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toStartOf="@+id/frameLayout2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+        android:background="@color/graylite"
+        android:elevation="1dp"
+        android:text="All of Bangladesh"
+        android:textSize="17dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"></TextView>
+
+    <TextView
+        android:id="@+id/frameLayout4"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/frameLayout3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        android:background="@color/graylite"
+        android:elevation="1dp"
+        android:text="Chittagong division"
+        android:textSize="17dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"></TextView>
+
+    <TextView
+        android:id="@+id/frameLayout6"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/frameLayout5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout4"
+        android:background="@color/graylite"
+        android:elevation="1dp"
+        android:text="Sylhet division"
+        android:textSize="17dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"></TextView>
+
+    <TextView
+        android:id="@+id/frameLayout8"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/frameLayout7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout6"
+        android:background="@color/graylite"
+        android:elevation="1dp"
+        android:text="Comilla division"
+        android:textSize="17dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"></TextView>
+
+    <TextView
+        android:id="@+id/frameLayout7"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout8"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout5"
+        android:background="@color/graylite"
+        android:elevation="1dp"
+        android:text="Mymenshing division"
+        android:textSize="17dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"></TextView>
+
+    <TextView
+        android:id="@+id/frameLayout5"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout6"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout3"
+        android:background="@color/graylite"
+        android:elevation="1dp"
+        android:text="Khulna division"
+        android:textSize="17dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"></TextView>
+
+    <TextView
+        android:id="@+id/frameLayout3"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout4"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
+        android:background="@color/graylite"
+        android:elevation="1dp"
+        android:text="Rajshahi division"
+        android:textSize="17dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"></TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
